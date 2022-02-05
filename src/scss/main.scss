@@ -8,10 +8,9 @@ body{
 .header {
     min-height: 50vh;
     width: 100%;
-    background-image: url('sunrise.jped');
+    background-image: url('sunrise.jpeg');
     background-size: cover;
     background-position: center;
-    opacity: 100%;
     position: relative;
 }
 
@@ -44,7 +43,7 @@ nav {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .nav-links ul li::after{
@@ -57,10 +56,6 @@ nav {
 
 .nav-links ul li:hover::after{
     width: 100%;
-}
-
-nav .fa{
-    display: none;
 }
 
 /*@media*/
@@ -77,11 +72,11 @@ nav .fa{
         text-align: left;
         z-index: 2;
     }
-
 }
 
 h1 {
     text-align: center;
+    margin-left: 10px;
 }
 
 p {
