@@ -11,6 +11,7 @@ body{
 	background-image: url("../sunrise.jpeg");
     background-size: cover;
     background-position: center;
+    padding-top: 10px;
     position: relative;
 }
 
@@ -83,8 +84,9 @@ p {
     font-size: 20px;
   }
 
-.author {
-      font-size: smaller;
+.author a {
+      font-size: small;
       text-align: center;
+      text-decoration: none;
     }
 
